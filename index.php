@@ -1,0 +1,369 @@
+
+
+
+<!DOCTYPE html>
+	<head>
+      <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>First wordpress theme by stajka Jeminovic</title>
+        <link rel="stylesheet" href="css/animate.css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <script src="js/vendor/jquery-1.12.0.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/main.js" ></script>
+        <?php wp_head(); ?>
+	</head>
+	<body>
+
+		<header>
+            <div id="black">
+                <div class="container">
+                    <div id="language">
+                        <ul class="list-unstyled">
+                            <li><a href="#">ENG</a></li>
+                            <li><a href="#">FRA</a></li>
+                            <li><a href="#">VIE</a></li>
+                        </ul>
+                    </div><!--end of language menu-->
+                    <div id="social_header" class="pull-right">
+                        <a href="#">SIGN UP/</a><a href="#">SIGN IN</a>
+                        <img src="img/social_header.jpg" alt="">
+                    </div>
+                </div><!--end of container-->
+            </div>
+			<div id="logo" class="wow fadeIn">
+                <img src="img/logo.png" alt="logo of the company">
+			</div>
+            <div class="container">
+			<div id="main_navigation" class="wow fadeInLeftBig">
+            <div id="main_menu" class="collapse in">
+                <ul>
+                    <li class="active" id="home" style="position:relative"><a href="index.html">HOME</a>
+                        <ul id="submenu">
+                            <li><a href="#">Home Fullwidth Posts</a></li>
+                            <li><a href="#">Home with Sidebar</a></li>
+                            <li><a href="#">Home grid Posts</a></li>
+                            <li id="rel" style="position:relative"><a href="#">Home grid Posts <i class="fa fa-angle-right" id="arr" aria-hidden="true"></i></a>
+                                <ul id="subsubmenu">
+                                    <li><a href="#">Home Fullwidth Posts</a></li>
+                                    <li><a href="#">Home with Sidebar</a></li>
+                                    <li><a href="#">Home grid Posts</a></li>
+                                    <li><a href="#">Home grid Posts</a>
+                                </ul>
+
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li><a href="layout.html ">LAYOUT</a></li>
+                    <li><a href="features.html">FEATURES</a></li>
+                    <li><a href="categories.html">CATEGORIES</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+                </div>
+                <div id="bar">
+                    <span class="glyphicon glyphicon-search search"> </span>
+                    <a href="#main_menu" id="bars" data-toggle="collapse"><i class="fa fa-bars"  aria-hidden="true"></i></a>
+                </div>
+			</div>
+            </div>
+		</header><!--end of header-->
+		<div id="banner">
+
+			<div class="container">
+				<div id="slider" >
+                    <img src="img/slider1.jpg" class="img-responsive wow zoomIn "  alt="">
+				</div><!--end of slider-->
+                <div id="caption">
+                    <span>Life Style</span>
+                    <p>My Daily Reading</p>
+                </div>
+			</div><!--end of container-->
+		</div><!--end of banner-->
+		<div id="main_content">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 post wow slideInRight ">
+						<div class="thumbnail ">
+							<img src="img/image-1.jpg" class="img-responsive img-thumb" alt="img of post">
+							<div class="img-post"><img src="img/img-1.png" alt=""></div>
+							<div class="content ">
+								<h2>My Daily Reading Lists</h2>
+								<p>Lorem ipsum dolor sit amet, cons adipiscing elit. Aenean commodo ligula eget dolor aeneanssa. Cum sociis natoque penatibus etagnis parturient montes, nascetur ridiculus mus.</p>
+							</div><!--end of content-->
+
+							<div class="comments">
+                                <div class="continue_reading">Continue reading &rarr;</div>
+								<img src="img/circle.png" class="img_post_author" alt="image of post author">
+
+
+                                <div class="text"><p>Posted on 18th March 2015 by Mike Ross</p>
+								<p><img src="" alt=""><i class="fa fa-heart" aria-hidden="true"></i> 10 favorites   <img src="" alt="">  <i class="fa fa-comments-o" aria-hidden="true"></i>10comments</p>
+								<p><img src="" alt=""> life style, friends, wonderfull</p>
+                                </div>
+							</div>
+						</div><!--end of thumbnail-->
+					</div><!--end of post-->
+					<div class="col-md-4 post wow slideInRight  " data-wow-delay="0.5s">
+						<div class="thumbnail">
+							<img src="img/image-2.jpg" class="img-responsive img-thumb" alt="img of post">
+							<div class="img-post"><img src="img/img-2.png" alt=""></div>
+							<div class="content ">
+								<h2>My Daily Reading Lists</h2>
+								<p>Lorem ipsum dolor sit amet, cons adipiscing elit. Aenean commodo ligula eget dolor aeneanssa. Cum sociis natoque penatibus etagnis parturient montes, nascetur ridiculus mus.</p>
+							</div><!--end of content-->
+
+							<div class="comments">
+                                <div class="continue_reading">Continue reading &rarr;</div>
+								<img src="img/circle.png" class="img_post_author" alt="image of post author">
+                                <div class="text">
+								<p>Posted on 18th March 2015 by Mike Ross</p>
+								<p><img src="" alt=""><i class="fa fa-heart" aria-hidden="true"></i> 10 favorites   <img src="" alt="">  <i class="fa fa-comments-o" aria-hidden="true"></i>10comments</p>
+								<p><img src="" alt=""> life style, friends, wonderfull</p>
+                                </div>
+							</div>
+						</div><!--end of thumbnail-->
+					</div>
+					 <div class="col-md-4 post wow slideInRight " data-wow-delay="1s">
+						<div class="thumbnail">
+							<img src="img/image-3.jpg" class="img-responsive img-thumb" alt="img of post">
+							<div class="img-post"><img src="img/img-3.png" alt=""></div>
+							<div class="content ">
+								<h2>My Daily Reading Lists</h2>
+								<p>Lorem ipsum dolor sit amet, cons adipiscing elit. Aenean commodo ligula eget dolor aeneanssa. Cum sociis natoque penatibus etagnis parturient montes, nascetur ridiculus mus.</p>
+							</div><!--end of content-->
+
+							<div class="comments">
+                                <div class="continue_reading">Continue reading &rarr;</div>
+								<img src="img/circle.png" class="img_post_author" alt="image of post author">
+                                <div class="text">
+								<p>Posted on 18th March 2015 by Mike Ross</p>
+								<p><img src="" alt=""><i class="fa fa-heart" aria-hidden="true"></i> 10 favorites   <img src="" alt="">  <i class="fa fa-comments-o" aria-hidden="true"></i>10comments</p>
+								<p><img src="" alt=""> life style, friends, wonderfull</p>
+                                </div>
+							</div>
+						</div><!--end of thumbnail-->
+					</div>
+				</di v>
+				<div class="row">
+					<div class="col-md-4 post wow slideInRight ">
+						<div class="thumbnail">
+							<img src="img/image-4.jpg" class="img-responsive img-thumb" alt="img of post">
+							<div class="img-post"><img src="img/img-4.png" alt=""></div>
+							<div class="content">
+								<h2>My Daily Reading Lists</h2>
+								<p>Lorem ipsum dolor sit amet, cons adipiscing elit. Aenean commodo ligula eget dolor aeneanssa. Cum sociis natoque penatibus etagnis parturient montes, nascetur ridiculus mus.</p>
+							</div><!--end of content-->
+
+							<div class="comments">
+                                <div class="continue_reading">Continue reading &rarr;</div>
+								<img src="img/circle.png" class="img_post_author" alt="image of post author">
+                                <div class="text">
+								<p>Posted on 18th March 2015 by Mike Ross</p>
+								<p><img src="" alt=""><i class="fa fa-heart" aria-hidden="true"></i> 10 favorites   <img src="" alt="">  <i class="fa fa-comments-o" aria-hidden="true"></i>10comments</p>
+								<p><img src="" alt=""> life style, friends, wonderfull</p>
+                                </div>
+							</div>
+						</div><!--end of thumbnail-->
+					</div>
+					<div class="col-md-4 post wow slideInRight  " data-wow-delay="0.3s">
+						<div class="thumbnail">
+							<img src="img/image-5.jpg" class="img-responsive img-thumb" alt="img of post">
+							<div class="img-post"><img src="img/img-5.png" alt=""></div>
+							<div class="content">
+								<h2>My Daily Reading Lists</h2>
+								<p>Lorem ipsum dolor sit amet, cons adipiscing elit. Aenean commodo ligula eget dolor aeneanssa. Cum sociis natoque penatibus etagnis parturient montes, nascetur ridiculus mus.</p>
+							</div><!--end of content-->
+
+							<div class="comments">
+                                <div class="continue_reading">Continue reading &rarr;</div>
+								<img src="img/circle.png" class="img_post_author" alt="image of post author">
+                                <div class="text">
+								<p>Posted on 18th March 2015 by Mike Ross</p>
+								<p><img src="" alt=""><i class="fa fa-heart" aria-hidden="true"></i> 10 favorites   <img src="" alt="">  <i class="fa fa-comments-o" aria-hidden="true"></i>10comments</p>
+								<p><img src="" alt=""> life style, friends, wonderfull</p>
+                                </div>
+							</div>
+						</div><!--end of thumbnail-->
+					</div>
+					 <div class="col-md-4 post wow slideInRight " data-wow-delay="0.6s">
+						<div class="thumbnail">
+							<img src="img/image-6.jpg" class="img-responsive img-thumb" alt="img of post">
+							<div class="img-post"><img src="img/img-6.png" alt=""></div>
+							<div class="content">
+								<h2>My Daily Reading Lists</h2>
+								<p>Lorem ipsum dolor sit amet, cons adipiscing elit. Aenean commodo ligula eget dolor aeneanssa. Cum sociis natoque penatibus etagnis parturient montes, nascetur ridiculus mus.</p>
+							</div><!--end of content-->
+
+							<div class="comments">
+                                <div class="continue_reading">Continue reading &rarr;</div>
+								<img src="img/circle.png" class="img_post_author" alt="image of post author">
+                                <div class="text">
+								<p>Posted on 18th March 2015 by Mike Ross</p>
+								<p><img src="" alt=""><i class="fa fa-heart" aria-hidden="true"></i> 10 favorites   <img src="" alt="">  <i class="fa fa-comments-o" aria-hidden="true"></i>10comments</p>
+								<p><img src="" alt=""> life style, friends, wonderfull</p>
+                                </div>
+							</div>
+						</div><!--end of thumbnail-->
+					</div>
+				</di v>
+				<div class="row">
+					<div class="col-md-4 post wow slideInRight ">
+						<div class="thumbnail">
+							<img src="img/image-7.jpg" class="img-responsive img-thumb" alt="img of post">
+							<div class="img-post"><img src="img/img-4.png" alt=""></div>
+							<div class="content">
+								<h2>My Daily Reading Lists</h2>
+								<p>Lorem ipsum dolor sit amet, cons adipiscing elit. Aenean commodo ligula eget dolor aeneanssa. Cum sociis natoque penatibus etagnis parturient montes, nascetur ridiculus mus.</p>
+							</div><!--end of content-->
+
+							<div class="comments">
+                            <div class="continue_reading">Continue reading &rarr;</div>
+								<img src="img/circle.png" class="img_post_author" alt="image of post author">
+                                <div class="text">
+								<p>Posted on 18th March 2015 by Mike Ross</p>
+								<p><img src="" alt=""><i class="fa fa-heart" aria-hidden="true"></i> 10 favorites   <img src="" alt="">  <i class="fa fa-comments-o" aria-hidden="true"></i>10comments</p>
+								<p><img src="" alt=""> life style, friends, wonderfull</p>
+                                </div>
+							</div>
+						</div><!--end of thumbnail-->
+					</div>
+					<div class="col-md-4 post wow slideInRight  " data-wow-delay="0.3s">
+						<div class="thumbnail">
+							<img src="img/image-8.jpg" class="img-responsive img-thumb" alt="img of post">
+							<div class="img-post"><img src="img/img-3.png" alt=""></div>
+							<div class="content">
+								<h2>My Daily Reading Lists</h2>
+								<p>Lorem ipsum dolor sit amet, cons adipiscing elit. Aenean commodo ligula eget dolor aeneanssa. Cum sociis natoque penatibus etagnis parturient montes, nascetur ridiculus mus.</p>
+							</div><!--end of content-->
+
+							<div class="comments">
+                            <div class="continue_reading">Continue reading &rarr;</div>
+								<img src="img/circle.png" class="img_post_author" alt="image of post author">
+                                <div class="text">
+								<p>Posted on 18th March 2015 by Mike Ross</p>
+								<p><img src="" alt=""><i class="fa fa-heart" aria-hidden="true"></i> 10 favorites   <img src="" alt="">  <i class="fa fa-comments-o" aria-hidden="true"></i>10comments</p>
+								<p><img src="" alt=""> life style, friends, wonderfull</p>
+                                </div>
+							</div>
+						</div><!--end of thumbnail-->
+					</div>
+					 <div class="col-md-4 post wow slideInRight " data-wow-delay="0.6s">
+						<div class="thumbnail">
+							<img src="img/image-9.jpg" class="img-responsive img-thumb" alt="img of post">
+							<div class="img-post"><img src="img/img-6.png" alt=""></div>
+							<div class="content">
+								<h2>My Daily Reading Lists</h2>
+								<p>Lorem ipsum dolor sit amet, cons adipiscing elit. Aenean commodo ligula eget dolor aeneanssa. Cum sociis natoque penatibus etagnis parturient montes, nascetur ridiculus mus.</p>
+							</div><!--end of content-->
+
+							<div class="comments">
+                                <div class="continue_reading">Continue reading &rarr;</div>
+								<img src="img/circle.png" class="img_post_author" alt="image of post author">
+                                <div class="text">
+								<p>Posted on 18th March 2015 by Mike Ross</p>
+								<p><img src="" alt=""><i class="fa fa-heart" aria-hidden="true"></i> 10 favorites   <img src="" alt="">  <i class="fa fa-comments-o" aria-hidden="true"></i>10comments</p>
+								<p><img src="" alt=""> life style, friends, wonderfull</p>
+                                </div>
+							</div>
+						</div><!--end of thumbnail-->
+					</div>
+				</div>
+            </div>
+			</div><!--end of container-->
+		</div><!--end of main_content-->
+		<footer>
+        <div class="container">
+			<div id="footer_up">
+				<div class="row">
+					<div class="col-md-4 wow slideInLeft">
+						<h5>About us</h5>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis. </p>
+						<h5>Connect with Us</h5>
+						<div id="social_icons_footer">
+							<ul>
+                                <li><a href=""><img src="img/03_41.jpg" alt=""></a></li>
+                                <li><a href=""><img src="img/03_43.jpg" alt=""></a></li>
+                                <li><a href=""><img src="img/03_45.jpg" alt=""></a></li>
+                                <li><a href=""><img src="img/03_47.jpg" alt=""></a></li>
+                                <li><a href=""><img src="img/03_49.jpg" alt=""></a></li>
+                            </ul>
+						</div>
+					</div>
+
+					<div class="col-md-4 forma">
+						<h5>Daily Newsletters</h5>
+						<form action="" method="post" class="wow bounceIn">
+							<input type="text" placeholder="Name">
+							<input type="text" placeholder="Email">
+							<button type="submit">Subscribe</button>
+						</form>
+					</div>
+					<div class="col-md-4 photos">
+						<h5>Photos on Instagram</h5>
+						<div class="images_instagram wow bounceIn" style ="width:110px; height:110px;  "><img src="" alt=""  ></div>
+						<div class="images_instagram wow bounceIn" style ="width:110px; height:110px; "><img src="" alt="" ></div>
+						<div class="images_instagram wow bounceIn" style ="width:110px; height:110px; "><img src="" alt="" ></div>
+						<div class="images_instagram wow bounceIn" style ="width:110px; height:110px; margin-left: 0;"><img src="" alt="" ></div>
+						<div class="images_instagram wow bounceIn" style ="width:110px; height:110px; "><img src="" alt="" ></div>
+						<div class="images_instagram wow bounceIn" style ="width:110px; height:110px; margin-right:0; "><img src="" alt="" ></div>
+					</div>
+				</div>
+			</div><!--end of footer_up-->
+            </div>
+			<div id="footer_down">
+            <div class="container">
+				<div id="copyright">
+					<p>Paper - Clean Blog WordPress Theme with Material Design</p>
+				</div>
+				<div id="footer_navigation">
+					<ul class="list-unstyled">
+						<li><a href="#">Help</a></li>
+						<li><a href="#">Terms</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div><!--end of footer_navigation-->
+			</div><!--end of footer_down-->
+            </div><!--end of container-->
+
+		</footer>
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="https://use.fontawesome.com/d4f94ef971.js"></script>
+        <script src="js/wow.min.js"></script>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+        <script>
+            $(function(){
+                new WOW().init();
+            });
+        </script>
+        <?php wp_footer(); ?>
+	</body>
+</html>
